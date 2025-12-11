@@ -158,15 +158,18 @@ Authorization: Bearer <your_token_here>
 ```
 
 ---
-
 ## 🧪 Testing
 
-Use Postman, Thunder Client, or any API testing tool.
+A Postman collection has been prepared for testing this API.
 
-✔ Ensure `Accept: application/json` is set
-✔ Login to receive your Bearer token
-✔ Use the token for all protected routes
+[**👉 Click here to view/import the Postman Collection**](https://api.postman.com/collections/50758780-84af8792-43b5-4caa-bab0-dd41861be4b9?access_key=PMAT-01KC7TB6QH8K12ASPK9N5DYSG8)
 
+### Testing Steps:
+1. Import the collection using the link above.
+2. Ensure the header `Accept: application/json` is set.
+3. **Register** a new user.
+4. **Login** to get your Bearer Token.
+5. Use that token to access the **Profile** and **Logout** endpoints.
 
 
 
